@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $('#signup').click(function(){
+        $('#password').val('');
+        $('#login_block').hide();
+        $('#signup_block').show();
+    });
+    $('#login').click(function(){
+        $('#newpassword').val('');
+        $('#signup_block').hide();
+        $('#login_block').show();
+    });
+}); 
